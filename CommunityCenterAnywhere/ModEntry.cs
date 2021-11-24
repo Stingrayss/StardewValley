@@ -14,7 +14,7 @@ namespace CommunityCenterAnywhere
         }
         private void OnMenuUpdate(object sender, MenuChangedEventArgs e)
         {
-            if (!Context.IsWorldReady) // quarter-second
+            if (!Context.IsWorldReady)
                 return;
 
             if (Game1.activeClickableMenu is JunimoNoteMenu menu)
