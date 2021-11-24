@@ -1,6 +1,0 @@
-D:\Users\Stingray\Documents\Computer Science\Stardew Valley\TelephonePurchasing\TelephonePurchasing\TelephonePurchasing\bin\Debug\TelephonePurchasing.dll
-D:\Users\Stingray\Documents\Computer Science\Stardew Valley\TelephonePurchasing\TelephonePurchasing\TelephonePurchasing\bin\Debug\TelephonePurchasing.pdb
-D:\Users\Stingray\Documents\Computer Science\Stardew Valley\TelephonePurchasing\TelephonePurchasing\TelephonePurchasing\obj\Debug\TelephonePurchasing.csproj.CoreCompileInputs.cache
-D:\Users\Stingray\Documents\Computer Science\Stardew Valley\TelephonePurchasing\TelephonePurchasing\TelephonePurchasing\obj\Debug\TelephonePurchasing.dll
-D:\Users\Stingray\Documents\Computer Science\Stardew Valley\TelephonePurchasing\TelephonePurchasing\TelephonePurchasing\obj\Debug\TelephonePurchasing.pdb
-D:\Users\Stingray\Documents\Computer Science\Stardew Valley\TelephonePurchasing\TelephonePurchasing\TelephonePurchasing\obj\Debug\TelephonePurchasing.csproj.AssemblyReference.cache
