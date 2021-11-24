@@ -1,4 +1,4 @@
-﻿using StardewModdingAPI;
+using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Menus;
@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 namespace StoresAnywhere
 {
     public class ModEntry : Mod
-    { 
+    {
         public override void Entry(IModHelper helper)
         {
             helper.Events.Display.MenuChanged += this.updatePhone;
@@ -25,10 +25,6 @@ namespace StoresAnywhere
             {
                 Game1.warpFarmer(playerLocation.name, (int)playerTile.X, (int)playerTile.Y, Game1.player.facingDirection);
             }
-            if (!(Game1.activeClickableMenu is PurchaseAnimalsMenu) && !(Game1.activeClickableMenu is CarpenterMenu) && !(Game1.activeClickableMenu is ShopMenu))
-            {
-                return;
-            }
             if (Game1.activeClickableMenu is ShopMenu menu)
             {
                 menu.readOnly = false;
@@ -41,6 +37,7 @@ namespace StoresAnywhere
             if (Game1.activeClickableMenu is PurchaseAnimalsMenu aMenu)
             {
                 aMenu.readOnly = false;
+                return;
             }
             if (Game1.activeClickableMenu is CarpenterMenu cMenu)
             {
