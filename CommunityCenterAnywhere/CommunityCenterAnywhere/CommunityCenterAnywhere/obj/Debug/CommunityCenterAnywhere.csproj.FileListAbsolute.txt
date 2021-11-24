@@ -1,0 +1,10 @@
+D:\Users\Stingray\Desktop\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\bin\Debug\CommunityCenterAnywhere.dll
+D:\Users\Stingray\Desktop\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\bin\Debug\CommunityCenterAnywhere.pdb
+D:\Users\Stingray\Desktop\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\obj\Debug\CommunityCenterAnywhere.csproj.CoreCompileInputs.cache
+D:\Users\Stingray\Desktop\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\obj\Debug\CommunityCenterAnywhere.dll
+D:\Users\Stingray\Desktop\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\obj\Debug\CommunityCenterAnywhere.pdb
+D:\Users\Stingray\Documents\Computer Science\Stardew Valley\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\bin\Debug\CommunityCenterAnywhere.dll
+D:\Users\Stingray\Documents\Computer Science\Stardew Valley\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\bin\Debug\CommunityCenterAnywhere.pdb
+D:\Users\Stingray\Documents\Computer Science\Stardew Valley\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\obj\Debug\CommunityCenterAnywhere.csproj.CoreCompileInputs.cache
+D:\Users\Stingray\Documents\Computer Science\Stardew Valley\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\obj\Debug\CommunityCenterAnywhere.dll
+D:\Users\Stingray\Documents\Computer Science\Stardew Valley\CommunityCenterAnywhere\CommunityCenterAnywhere\CommunityCenterAnywhere\obj\Debug\CommunityCenterAnywhere.pdb
