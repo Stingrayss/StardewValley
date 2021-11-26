@@ -7,29 +7,34 @@ using Microsoft.Xna.Framework;
 namespace StoresAnywhere
 {
     public class ModEntry : Mod
-    { 
+    {
         public override void Entry(IModHelper helper)
         {
-            helper.Events.Display.MenuChanged += this.updatePhone;
+            helper.Events.Display.MenuChanged += UpdatePhone;
         }
 
         private Vector2 playerTile;
         private GameLocation playerLocation;
-        private void updatePhone(object sender, MenuChangedEventArgs e)
+        private void UpdatePhone(object sender, MenuChangedEventArgs e)
         {
             if (!Context.IsWorldReady)
-            {
                 return;
-            }
+
+            //if our last menu was building or animal purchase, warp the farmer back to their original location upon exit
             if (e.OldMenu is CarpenterMenu || e.OldMenu is PurchaseAnimalsMenu)
             {
+                //if the player uses the shop from it's actual location, don't warp
+                if (playerLocation.name.Value is "ScienceHouse" || playerLocation.name.Value is "AnimalShop")
+                    return;
+
                 Game1.warpFarmer(playerLocation.name, (int)playerTile.X, (int)playerTile.Y, Game1.player.facingDirection);
             }
-            if (!(Game1.activeClickableMenu is PurchaseAnimalsMenu) && !(Game1.activeClickableMenu is CarpenterMenu) && !(Game1.activeClickableMenu is ShopMenu))
-            {
+
+            //return if we are not in any of the telephone menus
+            if (!(e.NewMenu is ShopMenu) && !(e.NewMenu is CarpenterMenu) && !(e.NewMenu is PurchaseAnimalsMenu))
                 return;
-            }
-            if (Game1.activeClickableMenu is ShopMenu menu)
+            
+            if (e.NewMenu is ShopMenu menu)
             {
                 menu.readOnly = false;
                 return;
@@ -38,11 +43,13 @@ namespace StoresAnywhere
             playerTile = Game1.player.getTileLocation();
             playerLocation = Game1.player.currentLocation;
 
-            if (Game1.activeClickableMenu is PurchaseAnimalsMenu aMenu)
+            if (e.NewMenu is PurchaseAnimalsMenu aMenu)
             {
                 aMenu.readOnly = false;
+                return;
             }
-            if (Game1.activeClickableMenu is CarpenterMenu cMenu)
+
+            if (e.NewMenu is CarpenterMenu cMenu)
             {
                 cMenu.readOnly = false;
                 cMenu.upgradeIcon.visible = true;
@@ -50,6 +57,7 @@ namespace StoresAnywhere
                 cMenu.moveButton.visible = true;
                 cMenu.okButton.visible = true;
                 cMenu.paintButton.visible = true;
+                return;
             }
         }
     }
