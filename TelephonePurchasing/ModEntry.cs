@@ -1,4 +1,4 @@
-using StardewModdingAPI;
+﻿using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Menus;
@@ -29,16 +29,12 @@ namespace StoresAnywhere
 
                 Game1.warpFarmer(playerLocation.name, (int)playerTile.X, (int)playerTile.Y, Game1.player.facingDirection);
             }
-<<<<<<< HEAD
 
             //return if we are not in any of the telephone menus
             if (!(e.NewMenu is ShopMenu) && !(e.NewMenu is CarpenterMenu) && !(e.NewMenu is PurchaseAnimalsMenu))
                 return;
             
             if (e.NewMenu is ShopMenu menu)
-=======
-            if (Game1.activeClickableMenu is ShopMenu menu)
->>>>>>> 1e3331f8d7ff151c9492d35993f222f06acf53f8
             {
                 menu.readOnly = false;
                 return;
