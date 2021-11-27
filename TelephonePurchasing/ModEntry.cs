@@ -4,12 +4,16 @@ using StardewValley;
 using StardewValley.Menus;
 using Microsoft.Xna.Framework;
 
-namespace StoresAnywhere
+namespace TelephonePurchasing
 {
     public class ModEntry : Mod
     {
+        public static ModConfig Config;
         public override void Entry(IModHelper helper)
         {
+            Config = Helper.ReadConfig<ModConfig>();
+            if (!Config.EnableMod)
+                return;
             helper.Events.Display.MenuChanged += UpdatePhone;
         }
 
