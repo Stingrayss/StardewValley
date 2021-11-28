@@ -16,6 +16,36 @@ namespace CommunityCenterAnywhere
             if (!Config.EnableMod)
                 return;
             helper.Events.Display.MenuChanged += OnMenuUpdate;
+            helper.Events.GameLoop.GameLaunched += OnGameLaunched;
+        }
+        private void OnGameLaunched(object sender, GameLaunchedEventArgs e)
+        {
+            // get Generic Mod Config Menu's API (if it's installed)
+            var configMenu = Helper.ModRegistry.GetApi<IGenericModConfigMenuApi>("spacechase0.GenericModConfigMenu");
+            if (configMenu is null)
+                return;
+
+            // register mod
+            configMenu.Register(
+                mod: ModManifest,
+                reset: () => Config = new ModConfig(),
+                save: () => Helper.WriteConfig(Config)
+            );
+
+            configMenu.AddBoolOption(
+                mod: ModManifest,
+                name: () => "Mod Enabled?",
+                getValue: () => Config.EnableMod,
+                setValue: value => Config.EnableMod = value
+            );
+
+            configMenu.AddBoolOption(
+                mod: ModManifest,
+                name: () => "Warping Enabled?",
+                tooltip: () => "Disables warping to the Community Center; this allows your game to softlock if you are not careful with bundle completion",
+                getValue: () => Config.PlayerWarping,
+                setValue: value => Config.PlayerWarping = value
+            );
         }
 
         private Vector2 playerTile;

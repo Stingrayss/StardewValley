@@ -1,7 +1,7 @@
 {
   "Name": "Telephone Purchasing",
   "Author": "Stingray",
-  "Version": "1.1.1",
+  "Version": "1.1.2",
   "Description": "Allows the player to purchase from the telephone",
   "UniqueID": "Stingray.TP",
   "EntryDll": "Telephone Purchasing.dll",
