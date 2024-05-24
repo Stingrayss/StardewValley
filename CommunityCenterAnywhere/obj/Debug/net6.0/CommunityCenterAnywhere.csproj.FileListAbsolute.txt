@@ -1,0 +1,8 @@
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\bin\Debug\net6.0\CommunityCenterAnywhere.deps.json
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\bin\Debug\net6.0\CommunityCenterAnywhere.dll
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.csproj.AssemblyReference.cache
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.AssemblyInfoInputs.cache
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.AssemblyInfo.cs
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.csproj.CoreCompileInputs.cache
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.dll

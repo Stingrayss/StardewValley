@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4nYMy3ZdkVuUJHrNqoZ39wY+3EdaULNDVzqi17DwWoyrJvUbgP/erIodcfJsq+xyAqC/QJrnqGjQHge+N9LbtQ==",
+  "success": true,
+  "projectFilePath": "E:\\Documents\\Stardew Valley Mods\\CommunityCenterAnywhere\\CommunityCenterAnywhere.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Caded\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
