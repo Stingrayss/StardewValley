@@ -61,10 +61,10 @@ public class MenuBundles
 
     public void OnMenuBundleAlmostComplete(JunimoNoteMenu menu)
     {
-        //technically don't need to use the menu, could pass in the currentBundle
-        //But this is more efficient since it checks while they are in the menu
-        //Which prevents constant looping
-        if (Count != 1) return;
+        //Checking for location prevents the player from being soft locked
+        if (Count != 1 || Game1.player.currentLocation.DisplayName == "Community Center"
+                       || Game1.player.currentLocation.DisplayName == "Abandoned JojaMart") return;
+
         var bundleIndex = incompleteBundles.Keys.ElementAt(0);
         var bundle = menu.bundles.First(bundle => bundle.bundleIndex == bundleIndex);
         var completedIngredients = bundle.ingredients.Count(ingredient => ingredient.completed);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommunityCenterAnywhere")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68376e1b295527a0c204b549a9f8ed49b31cb397")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommunityCenterAnywhere")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommunityCenterAnywhere")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

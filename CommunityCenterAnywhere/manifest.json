@@ -1,7 +1,7 @@
 {
   "Name": "CommunityCenterAnywhere",
   "Author": "Stingray",
-  "Version": "3.0.0",
+  "Version": "3.0.2",
   "Description": "Access Community Center bundles from anywhere",
   "UniqueID": "Stingray.CommunityCenterAnywhere",
   "EntryDll": "CommunityCenterAnywhere.dll",

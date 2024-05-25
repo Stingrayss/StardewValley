@@ -5,4 +5,5 @@ E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\Commun
 E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.AssemblyInfoInputs.cache
 E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.AssemblyInfo.cs
 E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.csproj.CoreCompileInputs.cache
+E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.sourcelink.json
 E:\Documents\Stardew Valley Mods\CommunityCenterAnywhere\obj\Debug\net6.0\CommunityCenterAnywhere.dll

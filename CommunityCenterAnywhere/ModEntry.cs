@@ -46,7 +46,6 @@ public class ModEntry : Mod
         //this prevents "infinite" loops in the update functions below
         if (!menuBundle.depositsAllowed || currentBundle == null) return;
 
-        
         //remove bundle from menuBundles if completed
         menuBundle.OnBundleComplete(currentBundle);
         
